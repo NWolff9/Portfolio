@@ -15,10 +15,9 @@ const ProjectsContainer = () => {
           Bosch View
         </h3>
         
-
-        <a href="#" className="btn">
+        {/* <a href="#" className="btn">
           Ver Projetos
-        </a>
+        </a> */}
       </section>
     );
   };

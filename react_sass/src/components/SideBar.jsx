@@ -15,7 +15,7 @@ const SideBar = () => {
 
       <SocialNetworks/>
       <Information/>
-      <a href="" className="btn">Projetos</a>
+      {/* <a href="" className="btn">Projetos</a> */}
 
 
 
