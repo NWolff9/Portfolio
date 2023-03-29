@@ -1,9 +1,14 @@
+import SideBar from './components/SideBar';
+import MainContent from './components/MainContent';
 
+import "./styles/components/app.sass";
 function App() {
   
   return (
-    <div className="App">
-      <h1>React + sass</h1>
+    <div id="Portfolio">
+      <h1>Nathã Wolff</h1>
+      <SideBar/>
+      <MainContent/>
         
     </div>
   )
