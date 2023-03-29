@@ -1,18 +1,15 @@
 const AboutContainer = () => {
     return (
       <section className="about-container">
-        <h2>Sobre</h2>
+        <h2>Formação Academica</h2>
         <p>
-          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quod, dolores!
-          Repellendus eius consequuntur, voluptate deserunt perferendis mollitia
-          debitis est autem aperiam necessitatibus beatae assumenda illo rem
-          architecto quis dolor quae.
+          Técnico de Mecatrônica: 2021 - 2022 (SENAI)
         </p>
         <p>
-          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quos veritatis
-          aperiam, odit nihil placeat, dolorum sequi reprehenderit fugiat,
-          distinctio provident impedit modi neque sapiente voluptate voluptates.
-          Maiores sint at dolores?
+          Técnico Desenvolvimento de Sistemas: 2022 - 2023 (SENAI)
+        </p>
+        <p>
+          Engenharia de Software: 2023 - 2027 (Unimetrocamp)
         </p>
       </section>
     );
