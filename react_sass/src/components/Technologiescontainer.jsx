@@ -5,6 +5,7 @@ import {
     DiNodejsSmall,
     DiMysql,
     DiReact,
+    DiPython,
  
   } from "react-icons/di";
   
@@ -14,9 +15,9 @@ import {
     { id: "html", name: "HTML5", icon: <DiHtml5 />, info:"HTML é uma linguagem de marcação utilizada na construção de páginas na Web" },
     { id: "css", name: "CSS3", icon: <DiCss3 />, info:"Cascading Style Sheets é um mecanismo para adicionar estilos a uma página Web" },
     { id: "js", name: "JavaScript", icon: <DiJsBadge />, info:"JavaScript é uma linguagem de programação usada por desenvolvedores para fazer páginas interativas da Internet" },
-    { id: "node", name: "Node.js", icon: <DiNodejsSmall />, info:"testeNode" },
-    { id: "mysql", name: "MySQL", icon: <DiMysql />, info:"testeMYSQL" },
-    { id: "react", name: "React", icon: <DiReact />, info:"testeReact" },
+    { id: "python", name: "python", icon: <DiPython />, info:"Python é uma linguagem de programação de alto nível, interpretada, imperativa, orientada a objetos, funcional, de tipagem dinâmica" },
+    { id: "mysql", name: "MySQL", icon: <DiMysql />, info:"O MySQL é um sistema de gerenciamento de banco de dados, que utiliza a linguagem SQL como interface" },
+    { id: "react", name: "React", icon: <DiReact />, info:"O React é uma biblioteca front-end JavaScript de código aberto com foco em criar interfaces de usuário em páginas web" },
   ];
   
   const TechnologiesContainer = () => {
