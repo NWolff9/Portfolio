@@ -1,11 +1,16 @@
 @use 'variables'
 
 @mixin btn
-    padding: 1rem 1.2rem
+    display: flex
+    justify-content: center
+    align-items: center
+    height: 3rem
+    width: 20rem
     color: variables.$text-color
-    background: variables.$gradient
+    background: variables.$button
     text-decoration: none
-    border-radius: 3rem
+    border-radius: 1rem
+    margin-bottom: 1rem
 
 
 @mixin center

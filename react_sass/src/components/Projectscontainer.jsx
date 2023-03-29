@@ -1,25 +1,27 @@
 import "../styles/components/projects.sass";
 
 const ProjectsContainer = () => {
-    return (
-     
-      <section id="projects-container">
-        <h2>Projetos</h2>
-        <h3>
-          Mesa seletora de peças pneumatica 
-        </h3>
-        <h3>
-          America's Management Power BI 
-        </h3>
-        <h3>
+  return (
+
+    <section id="projects-container">
+      <h2>Projetos</h2>
+      <view>
+
+        <a href="https://rb-powerbi.bosch.com/reports/powerbi/PBI/Production/OfficialBI_708258?rs:embed=true" className="btn">
+          America's Management Power BI
+        </a>
+
+        <a href="https://boschview.vercel.app/" className="btn">
           Bosch View
-        </h3>
+        </a>
+
+        <a href="https://www.youtube.com/watch?v=0NFfNsZ1Tp4" className="btn">
+          Mesa seletora de peças pneumatica
+        </a>
         
-        {/* <a href="#" className="btn">
-          Ver Projetos
-        </a> */}
-      </section>
-    );
-  };
-  
-  export default ProjectsContainer;
+      </view>
+    </section>
+  );
+};
+
+export default ProjectsContainer;
