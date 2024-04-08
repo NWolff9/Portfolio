@@ -1,13 +1,13 @@
 const features = [
-    { name: 'America Projects Management', description: 'Power BI for Bosch Global Service, this project aims to help improve the visualization of data from projects across America under supervision of Gaston' },
-    { name: 'Bosch View', description: 'Web platform that aims to help the management of the BOSCH/ETS area manager' },
-    { name: 'Smart Tire', description: 'A system consisting of an application and a platform where you can manage users, tires and vehicles. With this system the user can analyze the quality of tires using AI' },
-    { name: 'Glina', description: 'An Internacional digital bank focused on social security' }
-  ]
+  { name: 'America Projects Management', description: 'Power BI for Bosch Global Service, this project aims to help improve the visualization of data from projects across America under supervision of Gaston Diaz Perez' },
+  { name: 'Bosch View', description: 'Web platform that aims to help the management of the BOSCH/ETS area manager' },
+  { name: 'Smart Tire', description: 'A system consisting of an application and a platform where you can manage users, tires and vehicles. With this system the user can analyze the quality of tires using AI' },
+  { name: 'Glina', description: 'An Internacional digital bank focused on social security' }
+]
 
 const Context = () => {
-    return(
-        <div className="bg-green-200">
+  return (
+    <div className="bg-green-200">
       <div className="mx-auto grid max-w-2xl grid-cols-1 items-center gap-x-8 gap-y-16 px-4 py-24 sm:px-6 sm:py-32 lg:max-w-7xl lg:grid-cols-2 lg:px-8 ">
         <div>
           <h2 className="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">Projects</h2>
@@ -48,7 +48,7 @@ const Context = () => {
         </div>
       </div>
     </div>
-    )
+  )
 }
 
 export default Context
